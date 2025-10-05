@@ -8,19 +8,16 @@ import Stars from './Stars'
 import Planets from './Planets'
 
 // Scene component
-const Scene = () => {
-    // Custom hook for gravity logic
-    useGravity()
 
+const Scene = ({ star }) => {
+    useGravity()
     return (
         <CameraProvider>
             <ExplosionProvider>
-                <Sun />
-
+                <Sun star={star} />
                 <TrailProvider>
                     <Planets />
                 </TrailProvider>
-
                 <Stars />
             </ExplosionProvider>
         </CameraProvider>
