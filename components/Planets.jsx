@@ -10,7 +10,7 @@ import { useTrails } from '../context/Trails'
 import Planet from './Planet'
 
 // Planets component
-const Planets = ({ count = 14 }) => {
+const Planets = ({ count = 1 }) => {
     const { triggerExplosion } = useExplosion()
     const { addTrailPoint, clearTrail } = useTrails()
 
