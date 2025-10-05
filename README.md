@@ -1,10 +1,2 @@
-# Three.js Solar System
-
-A 3D model of a solar system built with Three.js, React Three Fiber, and Rapier physics.
-
-```shell
-npm install
-npm run dev
-```
-
-Demo at https://threesolar.netlify.app/
+#CHALLENGER HUNTING EXOPLANET WITH IA 
+# GIT CLONE WITH https://github.com/theshanergy/solarsystem
